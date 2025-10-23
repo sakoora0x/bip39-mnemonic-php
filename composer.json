@@ -1,0 +1,29 @@
+{
+  "name": "sakoora0x/bip39-mnemonic-php",
+  "type": "library",
+  "description": "BIP39 Mnemonics implementation in PHP",
+  "keywords": [
+    "bip39",
+    "BIP-0039",
+    "mnemonics"
+  ],
+  "license": "MIT",
+  "require": {
+    "php-64bit": "^8.2",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "sakoora0x\\BIP39\\": [
+        "src"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "minimum-stability": "dev"
+}
